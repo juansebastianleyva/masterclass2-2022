@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RETO 2</title>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script type="text/javascript" src="myScript.js"></script>
+
+
+<body>
+<button onclick="getClients()">Leer Clientes</button>
+<button onclick="saveClient()">Guardar Cliente</button>
+<button onclick="updateClient()">Actualizar Cliente</button>
+	<div>
+		<input type="number" id="idClient" placeholder="Id de Cliente"><br>
+		<input type="text" id="nameClient" placeholder="Nombre de Cliente"><br>
+		<input type="text" id="emailClient" placeholder="Correo de Cliente"><br>
+		<input type="number" id="ageClient" placeholder="Edad de Cliente"><br>
+	</div>
+
+	<div id="clients"></div>
+
+
+</body>
+</html>
